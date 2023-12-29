@@ -1,0 +1,23 @@
+code written within {} is jsx code 
+any code not written in {} will be rendered as string by reactjs
+
+//adding css:
+ const headerStyle={
+    backgroundColor: 'mediumorchid',
+    color: '#eeeeee'
+  };
+  return (
+    <header style={headerStyle}>
+        <h1>
+            Grocery list
+        </h1>
+    </header>
+  )
+  //this can be one way of adding style by creating a fucntion nd adding it as a var wher eu wanna give color
+  //other way could be inline css:
+
+<header style={{
+    backgroundColor: 'mediumorchid',
+    color: '#eeeeee'
+//performs same work
+}}>

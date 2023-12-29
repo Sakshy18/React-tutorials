@@ -1,24 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Content from './Content';
+import Header from './Header';
+import Footer from './Footer';
 function App() {  
-  const randomName = () =>
-  {
-    const names=['sakshi','smriti','ayana','mihir'];
-    const i=Math.floor(Math.random() * 4);
-    return names[i];
-     
-  }
+ 
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          hello {randomName()}!
-
-        </p>
-        
-      </header>
+     <Header />
+     <Content/>
+     <Footer/>
     </div>
   );
 }
