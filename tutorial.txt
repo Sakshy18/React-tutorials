@@ -21,3 +21,6 @@ any code not written in {} will be rendered as string by reactjs
     color: '#eeeeee'
 //performs same work
 }}>
+//use state:
+const [name,setName]=useState('Sakshi'); //providing default state name
+getter and setter kinda
