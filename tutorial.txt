@@ -24,3 +24,15 @@ any code not written in {} will be rendered as string by reactjs
 //use state:
 const [name,setName]=useState('Sakshi'); //providing default state name
 getter and setter kinda
+
+//list in react:
+using maps to iterate and access list
+
+{items.map((item) =>
+(
+  <li classname="item">
+
+
+  </li>
+)
+)}
